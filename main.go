@@ -11,5 +11,6 @@ func main() {
 		time.Sleep(1 * time.Second)
 		i++
 		fmt.Printf("Program has completed %d cycles\n", i)
+		fmt.Println("Test string")
 	}
 }
