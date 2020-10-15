@@ -11,7 +11,7 @@ phases:
     commands:
       - echo Building Started...
       - echo $(pwd)
-      - go build . -o gin_test
+      - go build -o gin_test
       - echo Building Complete...
 artifacts:
   files:
